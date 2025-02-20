@@ -19,7 +19,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './Home/home.jsx';
+import Home from './homePage/home.jsx';
 import Blog from './blog/Blog.jsx';
 
 const router = createBrowserRouter([
@@ -28,14 +28,12 @@ const router = createBrowserRouter([
     element: <App/>,
     children:[
       {
-        path: "/",
-        element: <Home/>
-      },
+        path: "/", element: <Home/> },
       {
         path: "/blog",
         element: <Blog/>
       }
-    ]
+    ],
   },
 ]);
 

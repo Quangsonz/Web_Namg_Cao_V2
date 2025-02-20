@@ -1,6 +1,6 @@
-import { Outlet } from 'react-router-dom'
-import './App.css'
-import NavItems from './components/NavItems'
+import { Outlet } from 'react-router-dom';
+import './App.css';
+import NavItems from './components/NavItems';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
       <NavItems/>
       <Outlet/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
